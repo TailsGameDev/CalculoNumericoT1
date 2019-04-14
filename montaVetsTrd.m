@@ -1,6 +1,6 @@
 function [t r d] = montaVetsTrd(a,n)
+
   i=1;
-  a
   r(i) = a(1,1); d(i) = a(1,2);
 
   for i=2:n-1
