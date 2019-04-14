@@ -10,8 +10,6 @@ for i=2:n
   c(i) = (b(i) - soma)/lu(i,i);
 end
 
-c
-
 % UX = C
 x(n) = c(n);
 for i=n-1:-1:1
