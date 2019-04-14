@@ -1,7 +1,6 @@
-function x = fLUCrout(n,a,b)
-
+function [x nop] = fLUCrout(n,a,b)
 % a = L * U ->
-lu = decomposicaoLU(a,n);
-x = substituicaoLU(lu,b,n);
+[lu nop] = decomposicaoLU(a,n);
+[x nop] = substituicaoLU(lu,b,n,nop);
 
 end
